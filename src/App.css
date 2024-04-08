@@ -1,0 +1,98 @@
+.bold {
+  font-weight: 700;
+}
+
+.gray {
+  color: #717171;
+}
+.heading{
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.navbar {
+  height: 70px;
+  padding: 1rem 2.5rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar img {
+  height: 100%;
+}
+
+section {
+  padding: 1rem 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.hero-img {
+  width: 45%;
+  align-self: center;
+}
+
+.card-list {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 1rem ;
+}
+
+.card {
+  width: 200px;
+  height: fit-content;
+  font-size: 12px;
+  border-radius: 10px;
+  gap: 5px;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0 5px;
+}
+
+.card-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card-stats {
+  display: flex;
+  align-items: center;
+}
+
+.card-stats img {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-list::-webkit-scrollbar {
+  display: none;
+  /* Hide scrollbar for webkit-based browsers */
+}
