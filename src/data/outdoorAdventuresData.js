@@ -6,7 +6,7 @@ export const outdoorAdventuresData = [
         location: "Switzerland",
         reviewCount: 15,
         price: 200,
-        coverImg: ('../../images/Swiss-Alps.jpg'), // Specify a landscape image for the card (e.g., 800x600)
+        coverImg: ('../assets/Swiss-Alps.jpg'), // Specify a landscape image for the card (e.g., 800x600)
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const outdoorAdventuresData = [
         location: "Tanzania",
         reviewCount: 25,
         price: 500,
-        coverImg: ('../../images/Safari.jpg'), // Specify a landscape image for the card (e.g., 800x600)
+        coverImg: ('../assets/Safari.jpg'), // Specify a landscape image for the card (e.g., 800x600)
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ export const outdoorAdventuresData = [
         location: "USA",
         reviewCount: 10,
         price: 150,
-        coverImg: ('../../images/Whitewater-rafting.jpg'), // Specify a landscape image for the card (e.g., 800x600)
+        coverImg: ('../assets/Whitewater-rafting.jpg'), // Specify a landscape image for the card (e.g., 800x600)
     },
     {
         id: 4,
@@ -33,7 +33,7 @@ export const outdoorAdventuresData = [
         location: "New Zealand",
         reviewCount: 12,
         price: 250,
-        coverImg: ('../../images/cycling.jpg'), // Specify a landscape image for the card (e.g., 800x600)
+        coverImg: ('../assets/cycling.jpg'), // Specify a landscape image for the card (e.g., 800x600)
     },
     {
         id: 5,
@@ -42,7 +42,7 @@ export const outdoorAdventuresData = [
         location: "USA",
         reviewCount: 20,
         price: 180,
-        coverImg: ('../../images/Rock-Climbing.jpg'), // Specify a landscape image for the card (e.g., 800x600)
+        coverImg: ('../assets/Rock-Climbing.jpg'), // Specify a landscape image for the card (e.g., 800x600)
     },
     {
         id: 6,
@@ -51,7 +51,7 @@ export const outdoorAdventuresData = [
         location: "Australia",
         reviewCount: 30,
         price: 300,
-        coverImg: ('../../images/diving.jpg'), // Specify a landscape image for the card (e.g., 800x600)
+        coverImg: ('../assets/diving.jpg'), // Specify a landscape image for the card (e.g., 800x600)
     },
     {
         id: 7,
@@ -60,7 +60,7 @@ export const outdoorAdventuresData = [
         location: "UAE",
         reviewCount: 8,
         price: 400,
-        coverImg: ('../../images/sky-diving.jpg'), // Specify a landscape image for the card (e.g., 800x600)
+        coverImg: ('../assets/sky-diving.jpg'), // Specify a landscape image for the card (e.g., 800x600)
     },
     
     //repeating the same data to test the scroll bar
