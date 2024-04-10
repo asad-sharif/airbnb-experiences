@@ -6,7 +6,7 @@ export const culturalExperiencesData = [
         location: "Italy",
         reviewCount: 20,
         price: 100,
-        coverImg: ('../../images/cooking-class.jpg')    },
+        coverImg: ('/airbnb-experiences/images/cooking-class.jpg')    },
     {
         id: 2,
         title: "Traditional Tea Ceremony in Japan",
@@ -14,7 +14,7 @@ export const culturalExperiencesData = [
         location: "Japan",
         reviewCount: 18,
         price: 80,
-        coverImg: ('../../images/tea-ceremony.jpg')    },
+        coverImg: ('/airbnb-experiences/images/tea-ceremony.jpg')    },
     {
         id: 3,
         title: "Art Tour in Paris",
@@ -22,7 +22,7 @@ export const culturalExperiencesData = [
         location: "France",
         reviewCount: 30,
         price: 120,
-        coverImg: ('../../images/art-tour.jpg')    },
+        coverImg: ('/airbnb-experiences/images/art-tour.jpg')    },
     // Add more cultural experiences here
     {
         id: 4,
@@ -31,7 +31,7 @@ export const culturalExperiencesData = [
         location: "Cuba",
         reviewCount: 15,
         price: 90,
-        coverImg: ('../../images/cuban-salsa.jpg')    },
+        coverImg: ('/airbnb-experiences/images/cuban-salsa.jpg')    },
     {
         id: 5,
         title: "Opera Night in Vienna",
@@ -39,7 +39,7 @@ export const culturalExperiencesData = [
         location: "Austria",
         reviewCount: 25,
         price: 150,
-        coverImg: ('../../images/opera-night.jpeg')    },
+        coverImg: ('/airbnb-experiences/images/opera-night.jpeg')    },
     {
         id: 6,
         title: "Calligraphy Workshop in China",
@@ -47,7 +47,7 @@ export const culturalExperiencesData = [
         location: "China",
         reviewCount: 12,
         price: 70,
-        coverImg: ('../../images/chinese-calligraphy.jpg')    },
+        coverImg: ('/airbnb-experiences/images/chinese-calligraphy.jpg')    },
     {
         id: 7,
         title: "Folk Music Concert in Ireland",
@@ -55,5 +55,5 @@ export const culturalExperiencesData = [
         location: "Ireland",
         reviewCount: 22,
         price: 110,
-        coverImg: ('../../images/folk-music.jpg')    },
+        coverImg: ('/airbnb-experiences/images/folk-music.jpg')    },
 ];
